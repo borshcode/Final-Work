@@ -27,3 +27,25 @@ img {
     float: left;
     margin-right: 10px;
 }
+
+.link-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    width: 200px;
+    height: 40px;
+    padding-top: 25px;
+    background-color: #4b003d;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 25px;
+    transition: all 0.4s ease;
+}
+
+.link-button:hover {
+    background-color: #1f0019;
+    width: 205px;
+    height: 45px;
+}
